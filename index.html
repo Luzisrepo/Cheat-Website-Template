@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusCheats | Premium Game Cheats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .nav-glass {
+            background: rgba(26, 26, 46, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(110, 69, 226, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(110, 69, 226, 0.4);
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(110, 69, 226, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(110, 69, 226, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(110, 69, 226, 0);
+            }
+        }
+        
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-icon {
+            transform: scale(1.1);
+            color: #6e45e2;
+        }
+        
+        .game-card {
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+        }
+        
+        .game-card:hover {
+            transform: perspective(1000px) rotateY(10deg) translateY(-5px);
+        }
+        
+        .price-tag {
+            background: rgba(26, 26, 46, 0.7);
+            border: 1px solid rgba(110, 69, 226, 0.5);
+        }
+        
+        .scroll-down {
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-glass fixed w-full z-50 py-4 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 flex items-center justify-center mr-3">
+                    <i class="fas fa-gamepad text-white"></i>
+                </div>
+                <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">NexusCheats</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-purple-400 transition">Home</a>
+                <a href="#products" class="hover:text-purple-400 transition">Products</a>
+                <a href="#features" class="hover:text-purple-400 transition">Features</a>
+                <a href="#testimonials" class="hover:text-purple-400 transition">Testimonials</a>
+                <a href="#faq" class="hover:text-purple-400 transition">FAQ</a>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <button class="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 transition">
+                    Login
+                </button>
+                <button class="md:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Dominate Your <span class="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">Favorite Games</span>
+                </h1>
+                <p class="text-lg text-gray-300 mb-8 max-w-lg">
+                    Access premium game cheats and hacks for your favorite titles. Undetectable, regularly updated, and with premium support.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+                    <button class="btn-primary px-8 py-3 rounded-lg font-semibold text-white">
+                        Browse Cheats
+                    </button>
+                    <button class="px-8 py-3 rounded-lg font-semibold border border-purple-500 text-purple-400 hover:bg-purple-900 hover:bg-opacity-30 transition">
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="mt-12 flex items-center space-x-4">
+                    <div class="flex -space-x-2">
+                        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                    </div>
+                    <div>
+                        <div class="flex items-center">
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                            <i class="fas fa-star text-yellow-400 mr-1"></i>
+                        </div>
+                        <p class="text-sm text-gray-300">Trusted by 10,000+ gamers</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="glass-card p-6 relative overflow-hidden">
+                    <div class="absolute -right-20 -top-20 w-64 h-64 bg-purple-500 rounded-full opacity-10"></div>
+                    <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-cyan-500 rounded-full opacity-10"></div>
+                    
+                    <div class="relative z-10">
+                        <div class="mb-6">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="font-bold text-xl">Apex Legends</h3>
+                                <span class="price-tag px-3 py-1 rounded-full text-sm font-semibold">$14.99/mo</span>
+                            </div>
+                            <div class="h-1 w-full bg-gray-700 rounded-full mb-2">
+                                <div class="h-1 bg-purple-500 rounded-full" style="width: 90%;"></div>
+                            </div>
+                            <p class="text-sm text-gray-300">Detection risk: <span class="text-green-400">Very Low</span></p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-check-circle text-green-400"></i>
+                                <span class="text-sm">Aimbot</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-check-circle text-green-400"></i>
+                                <span class="text-sm">Wallhack</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-check-circle text-green-400"></i>
+                                <span class="text-sm">ESP</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-check-circle text-green-400"></i>
+                                <span class="text-sm">No Recoil</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full btn-primary py-2 rounded-lg font-semibold">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-purple-500 rounded-full blur-2xl opacity-20 z-0"></div>
+            </div>
+        </div>
+        
+        <div class="mt-20 text-center">
+            <div class="scroll-down inline-block">
+                <i class="fas fa-chevron-down text-2xl text-purple-400"></i>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Games -->
+    <section id="products" class="py-20 px-6 md:px-12 bg-gradient-to-b from-transparent to-[#16213e]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Popular Game Cheats</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">Choose from our selection of premium cheats for the most popular games</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Game 1 -->
+                <div class="game-card glass-card p-6 relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-purple-500 rounded-full opacity-10"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Call of Duty: Warzone</h3>
+                            <p class="text-sm text-gray-300">Detection risk: <span class="text-green-400">Low</span></p>
+                        </div>
+                        <div class="bg-purple-900 bg-opacity-30 px-2 py-1 rounded text-sm">Bestseller</div>
+                    </div>
+                    <div class="h-40 mb-6 rounded-lg overflow-hidden">
+                        <div class="w-full h-full bg-gradient-to-br from-purple-900 to-gray-900 flex items-center justify-center">
+                            <i class="fas fa-gamepad text-5xl opacity-30"></i>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 mb-6">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Aimbot</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">ESP</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">No Recoil</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Radar</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-lg">$19.99/mo</span>
+                        <button class="btn-primary px-4 py-2 rounded-lg text-sm font-semibold">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Game 2 -->
+                <div class="game-card glass-card p-6 relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-blue-500 rounded-full opacity-10"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Fortnite</h3>
+                            <p class="text-sm text-gray-300">Detection risk: <span class="text-green-400">Medium</span></p>
+                        </div>
+                        <div class="bg-blue-900 bg-opacity-30 px-2 py-1 rounded text-sm">Popular</div>
+                    </div>
+                    <div class="h-40 mb-6 rounded-lg overflow-hidden">
+                        <div class="w-full h-full bg-gradient-to-br from-blue-900 to-gray-900 flex items-center justify-center">
+                            <i class="fas fa-gamepad text-5xl opacity-30"></i>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 mb-6">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Aimbot</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">ESP</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Instant Build</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Loot ESP</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-lg">$14.99/mo</span>
+                        <button class="btn-primary px-4 py-2 rounded-lg text-sm font-semibold">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Game 3 -->
+                <div class="game-card glass-card p-6 relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-red-500 rounded-full opacity-10"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Valorant</h3>
+                            <p class="text-sm text-gray-300">Detection risk: <span class="text-yellow-400">High</span></p>
+                        </div>
+                        <div class="bg-red-900 bg-opacity-30 px-2 py-1 rounded text-sm">New</div>
+                    </div>
+                    <div class="h-40 mb-6 rounded-lg overflow-hidden">
+                        <div class="w-full h-full bg-gradient-to-br from-red-900 to-gray-900 flex items-center justify-center">
+                            <i class="fas fa-gamepad text-5xl opacity-30"></i>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 mb-6">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Triggerbot</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">ESP</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">No Flash</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            <span class="text-sm">Bunny Hop</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-lg">$24.99/mo</span>
+                        <button class="btn-primary px-4 py-2 rounded-lg text-sm font-semibold">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="px-8 py-3 rounded-lg font-semibold border border-purple-500 text-purple-400 hover:bg-purple-900 hover:bg-opacity-30 transition">
+                    View All Games
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features -->
+    <section id="features" class="py-20 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose NexusCheats?</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">Our premium features ensure you get the best cheating experience</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-purple-900 bg-opacity-30 flex items-center justify-center text-2xl text-purple-400 mb-6">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Undetectable</h3>
+                    <p class="text-gray-300">Our cheats use advanced techniques to bypass anti-cheat systems and remain undetected.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-blue-900 bg-opacity-30 flex items-center justify-center text-2xl text-blue-400 mb-6">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Daily Updates</h3>
+                    <p class="text-gray-300">We update our cheats daily to ensure compatibility with game patches and maintain security.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-green-900 bg-opacity-30 flex items-center justify-center text-2xl text-green-400 mb-6">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">24/7 Support</h3>
+                    <p class="text-gray-300">Our expert support team is available around the clock to assist you with any issues.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-yellow-900 bg-opacity-30 flex items-center justify-center text-2xl text-yellow-400 mb-6">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">High Performance</h3>
+                    <p class="text-gray-300">Optimized to run smoothly without impacting your game performance or FPS.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-red-900 bg-opacity-30 flex items-center justify-center text-2xl text-red-400 mb-6">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Private Cheats</h3>
+                    <p class="text-gray-300">Limited distribution ensures our cheats remain private and less likely to be detected.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card glass-card p-8 rounded-xl">
+                    <div class="feature-icon w-16 h-16 rounded-full bg-cyan-900 bg-opacity-30 flex items-center justify-center text-2xl text-cyan-400 mb-6">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Customizable</h3>
+                    <p class="text-gray-300">Fully customizable settings to tailor the cheat to your playstyle and preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 px-6 md:px-12 bg-gradient-to-b from-transparent to-[#16213e]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Users Say</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">Don't just take our word for it - hear from our satisfied customers</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="glass-card p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">John D.</h4>
+                            <div class="flex">
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"yap yap!"</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="glass-card p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah K.</h4>
+                            <div class="flex">
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"yap yap."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="glass-card p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Moe Lester</h4>
+                            <div class="flex">
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                                <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"yap yap."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section id="faq" class="py-20 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="max-w-2xl mx-auto text-gray-300">Everything you need to know about our cheats and services</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- FAQ 1 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-purple-900 bg-opacity-30 flex items-center justify-center text-purple-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">Are your cheats detectable?</h3>
+                            <p class="text-gray-300">Our cheats use advanced techniques to avoid detection, but no cheat is 100% undetectable forever. We update our cheats frequently to maintain low detection rates.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-900 bg-opacity-30 flex items-center justify-center text-blue-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">How often are cheats updated?</h3>
+                            <p class="text-gray-300">We update our cheats daily to ensure compatibility with game patches and maintain security. Critical updates are pushed immediately when needed.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-green-900 bg-opacity-30 flex items-center justify-center text-green-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">What if I get banned?</h3>
+                            <p class="text-gray-300">While we work hard to prevent bans, we offer a one-time replacement license if you're banned within the first 30 days of using our cheats responsibly.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-yellow-900 bg-opacity-30 flex items-center justify-center text-yellow-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">Is there a free trial?</h3>
+                            <p class="text-gray-300">We don't offer free trials to maintain the security of our cheats, but we have a 24-hour money-back guarantee if you're not satisfied with your purchase.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-red-900 bg-opacity-30 flex items-center justify-center text-red-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">How do I install the cheats?</h3>
+                            <p class="text-gray-300">After purchase, you'll receive detailed instructions and our custom loader. The process is simple and we provide support if you encounter any issues.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ 6 -->
+                <div class="glass-card p-6 rounded-xl">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-900 bg-opacity-30 flex items-center justify-center text-cyan-400 mr-4 mt-1">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">Can I use cheats on multiple PCs?</h3>
+                            <p class="text-gray-300">Your license allows activation on up to 2 devices simultaneously. Additional device slots can be purchased if needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="py-20 px-6 md:px-12 bg-gradient-to-b from-[#16213e] to-[#0f172a]">
+        <div class="max-w-4xl mx-auto text-center glass-card p-12 rounded-2xl relative overflow-hidden">
+            <div class="absolute -right-20 -top-20 w-64 h-64 bg-purple-500 rounded-full opacity-10"></div>
+            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-cyan-500 rounded-full opacity-10"></div>
+            
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Dominate Your Games?</h2>
+                <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">Join thousands of gamers who are already winning with NexusCheats.</p>
+                <button class="btn-primary px-8 py-4 rounded-lg font-semibold text-lg pulse">
+                    Get Started Now
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-12 px-6 md:px-12 bg-[#0f172a]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div>
+                <div class="flex items-center mb-6">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 flex items-center justify-center mr-3">
+                        <i class="fas fa-gamepad text-white"></i>
+                    </div>
+                    <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">NexusCheats</span>
+                </div>
+                <p class="text-gray-400 mb-6">Premium game cheats for competitive gamers who demand the best.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 transition">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-500 transition">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-6">Products</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-400 hover:text-purple-400 transition">Warzone Cheats</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-purple-400 transition">Fortnite Cheats</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-purple-400 transition">Valorant Cheats</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-purple-400 transition">Apex Legends Cheats</a></li>
+                    <li><a href="#" class="text-gray
+</body>
+</html>
